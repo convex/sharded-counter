@@ -138,7 +138,7 @@ function App() {
           <div style={{ marginLeft: "auto" }}>
             source code on{" "}
             <a
-              href="https://github.com/get-convex/sharded-counter"
+              href="https://github.com/convex/sharded-counter"
               target="_blank"
             >
               GitHub
