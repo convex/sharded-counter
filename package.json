@@ -7,7 +7,7 @@
     "email": "support@convex.dev",
     "url": "https://github.com/convex/sharded-counter/issues"
   },
-  "version": "0.2.3",
+  "version": "0.2.4",
   "license": "Apache-2.0",
   "keywords": [
     "convex",
