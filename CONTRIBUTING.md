@@ -88,9 +88,9 @@ staged. If the workflow fails, check npm's staged packages first:
 - Tagged, but Release didn't start: start it on the tag with
   `gh workflow run release.yml -R convex/sharded-counter --ref v1.2.3`.
 - Not staged: rerun the failed jobs
-  (`gh run rerun <run-id> -R convex/sharded-counter --failed`), for example after
-  pushing `main` if the tag went first. A rerun uses the run's original commit
-  and works for 30 days.
+  (`gh run rerun <run-id> -R convex/sharded-counter --failed`), for example
+  after pushing `main` if the tag went first. A rerun uses the run's original
+  commit and works for 30 days.
 
   To release a different commit, fix the source and move the tag:
 
